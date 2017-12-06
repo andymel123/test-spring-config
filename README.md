@@ -1,2 +1,2 @@
 # test-spring-config
-test binding of compley application.yml data
+test binding of complex application.yml data
