@@ -1,0 +1,24 @@
+logging:
+  level:
+    root: INFO
+    eu.andymel: DEBUG
+
+oauth:
+  linkedIn:
+    client:
+      clientId: 
+      clientSecret: 
+      accessTokenUri: https://www.linkedin.com/oauth/v2/accessToken
+      userAuthorizationUri: https://www.linkedin.com/oauth/v2/authorization
+    resource:
+      userInfoUri: https://api.linkedin.com/v1/people/~?format=json
+  
+  twitter:
+    client:
+      clientId: 
+      clientSecret: 
+      accessTokenUri: https://api.twitter.com/oauth/access_token
+      userAuthorizationUri: https://api.twitter.com/oauth/authorize
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri:  https://api.twitter.com/1.1/users/show.json
